@@ -1,0 +1,11 @@
+--- a/arch/arm/boot/dts/bcm4708-smartrg-sr400ac.dts
++++ b/arch/arm/boot/dts/bcm4708-smartrg-sr400ac.dts
+@@ -147,7 +147,7 @@
+ 
+ 		wps {
+ 			label = "WPS";
+-			linux,code = <KEY_WPS_BUTTON>;
++			linux,code = <BTN_1>;
+ 			gpios = <&chipcommon 7 GPIO_ACTIVE_LOW>;
+ 		};
+ 
